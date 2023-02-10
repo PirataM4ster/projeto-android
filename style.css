@@ -38,7 +38,6 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
     text-indent: 30px;
-    line-height: 1em;
 }
 
 a.externo::after {
@@ -55,7 +54,7 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.295);
@@ -65,12 +64,12 @@ header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: white;
-    max-width: 500px;
+    max-width: 600px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 30px;
     margin: auto;
-    margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.295);
     line-height: 1.5em;
 }
@@ -119,7 +118,6 @@ main h2 {
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
-    padding: 5px;
 }
 
 main p {
